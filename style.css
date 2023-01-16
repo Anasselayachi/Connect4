@@ -6,9 +6,9 @@ body {
 #board {
     height: 540px;
     width: 630px;
-    background-color: blue;
+    background-color: rgb(129, 196, 235);
     border: 10px solid navy;
-    
+    border-radius: 5%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@ body {
     margin: 5px;
 
     /* Circle */
-    background-color: white;
+    background-color: rgb(183, 226, 229);
     border-radius: 50%;
     border: 5px solid navy;
 }
@@ -38,8 +38,7 @@ body {
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
+    #1100ff 29%,
     #ff1361 67%,
     #fff800 100%
   );
@@ -48,7 +47,6 @@ body {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
